@@ -1,0 +1,118 @@
+
+.nav-back{
+  background-color: #f8f9fa;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.navlogo{
+  
+text-transform: uppercase;
+  
+font-weight: 700;
+  
+color: #714d4d;
+  
+font-size: 23px;
+font-family: sans-serif;
+}
+.custom-sign{
+     border: 1px solid #ff00001f;
+    padding: 10px;
+    border-radius: 2px;
+}
+.custom-pos{}
+h2{
+  text-transform: uppercase;
+
+}
+.custom-btn1{ background-color:#3794e6;}
+.custom-btn2{background-color: #6c757d;}
+.custom-btn3{background-color: #948200;}
+
+@media only screen and (min-width: 1000px) {
+  .slider-xl{
+height: 90vh;
+}
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+.custom-pos{
+  padding-bottom: 10px;
+}
